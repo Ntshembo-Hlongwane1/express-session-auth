@@ -1,6 +1,6 @@
 import nodemailer from "nodemailer";
 import Formidable from "formidable";
-import Bcrypt, { hash } from "bcrypt";
+import Bcrypt from "bcrypt";
 
 class ExpressSessionAuth {
   constructor(
@@ -166,4 +166,4 @@ class ExpressSessionAuth {
   }
 }
 
-module.exports = ExpressSessionAuth;
+export default ExpressSessionAuth;
