@@ -166,4 +166,4 @@ class ExpressSessionAuth {
   }
 }
 
-export default ExpressSessionAuth;
+module.exports = ExpressSessionAuth;

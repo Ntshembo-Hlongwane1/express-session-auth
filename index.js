@@ -1,7 +1,7 @@
-import ExpressSessionAuth from "./src/Auth";
+const ExpressSessionAuth = require("./src/Auth");
 
 const expressSessionAuth = {
   expressSessionAuth: ExpressSessionAuth,
 };
 
-export default expressSessionAuth;
+module.exports = expressSessionAuth;
