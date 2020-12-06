@@ -55,7 +55,7 @@ mailTransporterUser is the password given in by mail transporter *the current su
 ##### passwordLength (Optional)
 This is for setting the password length that you want for you authentication system. *Default length is 8*
 
-##### hashRounds
+##### hashRounds (Optional)
 This are the number of rounds you want Bcrypt to use to create salt for hashing user's password. *Default round 15*
 
 
