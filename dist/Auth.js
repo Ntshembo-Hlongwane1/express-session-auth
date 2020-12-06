@@ -28,11 +28,11 @@ var ExpressSessionAuth = /*#__PURE__*/function () {
     _classCallCheck(this, ExpressSessionAuth);
 
     this.userModel = userModel;
+    this.userSessions = userSessions;
     this.mailTransporterUser = mailTransporterUser;
     this.mailTransporterPass = mailTransporterPass;
     this.passwordLength = passwordLength || 8;
     this.hashRounds = hashRounds || 15;
-    this.userSessions = userSessions;
   }
 
   _createClass(ExpressSessionAuth, [{
