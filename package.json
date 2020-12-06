@@ -1,0 +1,25 @@
+{
+  "name": "express-session-auth",
+  "version": "1.0.0",
+  "description": "This is an express-session-auth NPM Package...",
+  "main": "index.js",
+  "scripts": {
+    "build": "babel-node /src/Auth.js "
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Ntshembo-Hlongwane1/express-session-auth.git"
+  },
+  "author": "Ntshembo Hlongwane",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Ntshembo-Hlongwane1/express-session-auth/issues"
+  },
+  "homepage": "https://github.com/Ntshembo-Hlongwane1/express-session-auth#readme",
+  "dependencies": {
+    "bcrypt": "^5.0.0",
+    "formidable": "^1.2.2",
+    "nodemailer": "^6.4.16"
+  },
+  "devDependencies": {}
+}
