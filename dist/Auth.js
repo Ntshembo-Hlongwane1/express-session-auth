@@ -56,7 +56,7 @@ var ExpressSessionAuth = /*#__PURE__*/function () {
                     }
 
                     return _context.abrupt("return", response.status(500).json({
-                      msg: "Network Error: Failed to signup user"
+                      msg: "Network Error (Formidable Error): Failed to signup user"
                     }));
 
                   case 2:
@@ -169,7 +169,7 @@ var ExpressSessionAuth = /*#__PURE__*/function () {
         }());
       } catch (error) {
         return response.status(500).json({
-          msg: "Network Error: Failed to signup user"
+          msg: "Network Error (Server Error): Failed to signup user"
         });
       }
     }
