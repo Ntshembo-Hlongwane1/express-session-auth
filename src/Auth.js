@@ -12,11 +12,11 @@ class ExpressSessionAuth {
     hashRounds
   ) {
     this.userModel = userModel;
+    this.userSessions = userSessions;
     this.mailTransporterUser = mailTransporterUser;
     this.mailTransporterPass = mailTransporterPass;
     this.passwordLength = passwordLength || 8;
     this.hashRounds = hashRounds || 15;
-    this.userSessions = userSessions;
   }
 
   SignUp(request, response) {
@@ -27,7 +27,7 @@ class ExpressSessionAuth {
         if (error) {
           return response
             .status(500)
-            .json({ msg: "Network Error: Failed to signup user" });
+            .json({ msg: "Network Error (Formidable): Failed to signup user" });
         }
 
         const { username, email, password, verifiedPassword } = fields;
@@ -104,7 +104,7 @@ class ExpressSessionAuth {
     } catch (error) {
       return response
         .status(500)
-        .json({ msg: "Network Error: Failed to signup user" });
+        .json({ msg: "Network Error (Server): Failed to signup user" });
     }
   }
 
