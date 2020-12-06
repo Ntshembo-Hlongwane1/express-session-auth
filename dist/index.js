@@ -1,15 +1,14 @@
 "use strict";
 
 Object.defineProperty(exports, "__esModule", {
-  value: true,
+  value: true
 });
-exports.default = void 0;
+exports["default"] = void 0;
 
 var _Auth = _interopRequireDefault(require("./Auth"));
 
-function _interopRequireDefault(obj) {
-  return obj && obj.__esModule ? obj : { default: obj };
-}
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { "default": obj }; }
 
-var _default = _Auth.default;
-exports.default = _default;
+var _default = _Auth["default"];
+exports["default"] = _default;
+//# sourceMappingURL=index.js.map
