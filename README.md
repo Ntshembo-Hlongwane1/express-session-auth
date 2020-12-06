@@ -62,5 +62,6 @@ This are the number of rounds you want Bcrypt to use to create salt for hashing 
 ### Contribution
 Fork the repository make your changes, send me a pull request and I will review the sourcecode
 
-<p style="text-align:center;">LET'S BUILD STRONGEST AUTH SYSTEM 🔥</p>
+
+### LET'S BUILD STRONGEST AUTH SYSTEM 🔥 🔐
                                                       
