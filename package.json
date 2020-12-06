@@ -1,6 +1,6 @@
 {
   "name": "express-session-auth",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "This is an express-session-auth NPM Package...",
   "main": "dist/index.js",
   "scripts": {
