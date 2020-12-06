@@ -27,6 +27,7 @@ class ExpressSessionAuth {
         if (error) {
           return response.status(500).json({
             msg: "Network Error (Formidable Error): Failed to signup user",
+            error: error,
           });
         }
 
@@ -102,9 +103,10 @@ class ExpressSessionAuth {
         });
       });
     } catch (error) {
-      return response
-        .status(500)
-        .json({ msg: "Network Error (Server Error): Failed to signup user" });
+      return response.status(500).json({
+        msg: "Network Error (Server Error): Failed to signup user",
+        error: error,
+      });
     }
   }
 
