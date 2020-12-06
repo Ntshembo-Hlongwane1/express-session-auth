@@ -22,6 +22,7 @@ const auth = new expressSessionAuth(options)
 - [express-session middleware](https://www.npmjs.com/package/express-session)
 - [nodemailer](https://www.npmjs.com/package/nodemailer)
 - [SendinBlue](https://www.sendinblue.com/)
+- [store for express-session to use](https://www.npmjs.com/package/connect-mongodb-session)
 
 
 ## Options
