@@ -4,7 +4,8 @@
   "description": "This is an express-session-auth NPM Package...",
   "main": "dist/index.js",
   "scripts": {
-    "build": "mkdir dist && babel src -s -d dist"
+    "build": "npm run clean && mkdir dist && babel src -s -d dist",
+    "clean": "rm -rf dist"
   },
   "repository": {
     "type": "git",
