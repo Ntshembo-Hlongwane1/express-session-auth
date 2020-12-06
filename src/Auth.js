@@ -16,6 +16,8 @@ const Auth = {
   mailTransporterUser: null,
   mailTransporterPass: null,
   hashRounds: 15,
+  SignUp: null,
+  Login: null,
 };
 
 Auth.SignUp = (request, response) => {
