@@ -27,7 +27,7 @@ class ExpressSessionAuth {
         if (error) {
           return response
             .status(500)
-            .json({ msg: "Network Error: Failed to signup user" });
+            .json({ msg: "Network Error (Formidable): Failed to signup user" });
         }
 
         const { username, email, password, verifiedPassword } = fields;
@@ -104,7 +104,7 @@ class ExpressSessionAuth {
     } catch (error) {
       return response
         .status(500)
-        .json({ msg: "Network Error: Failed to signup user" });
+        .json({ msg: "Network Error (Server): Failed to signup user" });
     }
   }
 
