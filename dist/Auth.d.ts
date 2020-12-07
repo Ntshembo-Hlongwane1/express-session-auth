@@ -6,12 +6,12 @@ interface Auth {
 }
 declare class AuthController implements Auth {
     userModel: Model<Document>;
-    userSession: Document;
+    userSession: Model<Document>;
     hashRounds: number;
     mailTransporterUser: string;
     mailTransporterPass: string;
     passwordLength: number;
-    constructor(userModel: Model<Document>, userSessions: Document, hashRounds: number, mailTransporterUser: string, mailTransporterPass: string, passwordLength: number);
+    constructor(userModel: Model<Document>, userSessions: Model<Document>, hashRounds: number, mailTransporterUser: string, mailTransporterPass: string, passwordLength: number);
     SignUp(request: Request, response: Response): Response<any>;
     Login(request: Request, response: Response): Response<any>;
 }
