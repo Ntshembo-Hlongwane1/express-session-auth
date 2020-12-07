@@ -11,7 +11,7 @@ interface Auth {
 
 class AuthController implements Auth {
   userModel: Model<Document>;
-  userSession: Document;
+  userSession: Model<Document>;
   hashRounds: number;
   mailTransporterUser: string;
   mailTransporterPass: string;
@@ -19,7 +19,7 @@ class AuthController implements Auth {
 
   constructor(
     userModel: Model<Document>,
-    userSessions: Document,
+    userSessions: Model<Document>,
     hashRounds: number,
     mailTransporterUser: string,
     mailTransporterPass: string,
