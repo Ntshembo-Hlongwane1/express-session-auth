@@ -124,8 +124,9 @@ class AuthController implements Auth {
           email: email,
           id: user._id,
         };
+        return userSession;
       });
-      return response.status(200).json({ msg: "Logged in" });
+      return {};
     } catch (error) {
       console.error(error);
       return response

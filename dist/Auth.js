@@ -143,11 +143,11 @@ var AuthController = /** @class */ (function () {
                                 email: email,
                                 id: user._id,
                             };
-                            return [2 /*return*/];
+                            return [2 /*return*/, userSession];
                     }
                 });
             }); });
-            return response.status(200).json({ msg: "Logged in" });
+            return {};
         }
         catch (error) {
             console.error(error);

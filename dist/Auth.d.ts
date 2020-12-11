@@ -19,7 +19,7 @@ declare class AuthController implements Auth {
     passwordLength: number;
     constructor(userModel: Model<Document>, userSessions: Model<Document>, hashRounds: number, mailTransporterUser: string, mailTransporterPass: string, passwordLength: number);
     SignUp(request: Request, response: Response): Response<any>;
-    Login(request: Request, response: Response): Response<any>;
+    Login(request: Request, response: Response): {};
 }
 export default AuthController;
 //# sourceMappingURL=Auth.d.ts.map
