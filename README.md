@@ -5,6 +5,11 @@
 $ npm install express-session-auth
 ```
 
+### Support & Usage
+- - [x] Vanilla JavaScript 👌
+- - [x] TypeScript 🔥
+- - [x] Easy To Use 🚀
+
 ## API
 
 ```js
