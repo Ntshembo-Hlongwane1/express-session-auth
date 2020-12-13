@@ -8,12 +8,12 @@ $ npm install express-session-auth
 ## API
 
 ```js
-const expressSessionAuth = require('express-session-auth');
+const expressSessionAuth = require('express-session-auth'); //Intellisense support unavailable when importing ES5 way
 const auth = new expressSessionAuth(options)
 ```
 #### or 
 ```js
-import expressSessionAuth from 'express-session-auth'
+import expressSessionAuth from 'express-session-auth' //Intellisense support avaible 
 const auth = new expressSessionAuth(options)
 ```
 
